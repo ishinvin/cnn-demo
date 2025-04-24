@@ -227,5 +227,3 @@ Think about trying to recognize a face:
 ---
 
 By leveraging these advantages, CNNs are **far more effective** at handling images and other visual data compared to traditional models like **logistic regression** and **fully connected neural networks**.
-
-Let me know if you'd like more examples or deeper dive into any of these points!
