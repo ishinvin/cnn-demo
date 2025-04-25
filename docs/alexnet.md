@@ -131,6 +131,12 @@ AlexNet was designed to classify images into predefined categories and consists 
 
 - AlexNet uses **Dropout** to avoid overfitting. Dropout randomly disables some neurons during training, helping the network generalize better.
 
+- Dropout is a regularization technique used in deep learning models, particularly Convolutional Neural Networks (CNNs), to prevent overfitting.
+
+- Overfitting occurs when a model performs well on the training data but fails to generalize to new, unseen data.
+
+- Dropout addresses this issue by randomly “dropping out” (setting to zero) a fraction of neurons during training, forcing the network to learn more robust and generalizable features.
+
 ### Data Augmentation
 
 - To prevent overfitting due to limited data, AlexNet uses **image augmentation** techniques like **rotation**, **flipping**, and **color jittering** to artificially increase the size of the training dataset.
