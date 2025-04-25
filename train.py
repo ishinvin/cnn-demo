@@ -38,8 +38,8 @@ val_transform = transforms.Compose([
 train_dataset = datasets.ImageFolder(os.path.join(data_dir, 'train'), transform=train_transform)
 val_dataset = datasets.ImageFolder(os.path.join(data_dir, 'validate'), transform=val_transform)
 print("------------------------- Dataset classes:", train_dataset.class_to_idx)
-train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
-val_loader = DataLoader(val_dataset, batch_size=32)
+train_loader = DataLoader(train_dataset, batch_size=16, shuffle=True)
+val_loader = DataLoader(val_dataset, batch_size=16)
 
 # ----- Model, Loss, Optimizer -----
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
