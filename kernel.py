@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 
 # Load a sample image
-img = Image.open('lena.png').convert('L')  # Convert to grayscale
+img = Image.open('./imgs/lena.png').convert('L')  # Convert to grayscale
 img = img.resize((256, 256))  # Resize for easier processing
 
 # Convert to PyTorch tensor
